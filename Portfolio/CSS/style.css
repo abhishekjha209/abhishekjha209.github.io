@@ -1,0 +1,184 @@
+body{
+    background-image: url(../img/clouds.jpeg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    color:whitesmoke;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin:0rem;
+}
+.wrapper{
+    width: 96%;
+    background-color:rgb(44, 102, 132, 0.9);  
+    margin:0 auto;
+}
+nav{
+    color:whitesmoke;
+    font-size: 1.2rem;
+    padding: 3rem 2rem;
+    /* margin-bottom: 1rem; */
+    background-color:rgb(3, 48, 68); 
+    padding-bottom: 5rem;
+}
+nav a{
+    color: white;
+    padding: 1rem;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.heading-section h1{
+    margin: 2rem 0rem;
+    padding-top: 4rem;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+}
+.heading-section i{
+    color:whitesmoke;
+}
+.inline-ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;      
+}
+.inline-ul li{
+    display: inline-block;
+    margin: 0 1rem;   
+}
+.inline-ul a{
+    text-decoration: none;
+}
+.heading-ul{
+    margin: -4rem  auto 3rem auto;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.about-section{
+    padding: 0rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;  
+    margin: 4rem 0 8rem 0;
+
+}
+.leftheader{
+    flex-basis: 35%;
+}
+.leftheader img{
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 100%; 
+    border: white 3px solid;
+    margin: 0 auto;
+}
+.rightheader{
+    flex-basis: 60%;
+}
+.rightheader article{
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0 10%;
+} 
+.rightheader h2{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+
+.body-section{
+    background-color:rgb(72, 81, 35,0.2);
+    padding: 5rem 3rem;
+    border: black 0px solid;
+    /* margin: 5rem 0 rem 0; */
+}
+.history-wrapper{
+    margin: 5rem 0;
+    border: black 0px solid;
+    padding: 0;
+
+}
+.body-section section h2{ 
+    margin: 3rem 0rem;
+    padding: 0rem 2rem;
+    font-size: 2.3rem;
+}
+.body-section h3{
+    margin: 2.5rem 0rem 0.25rem 2rem;
+    padding: 0rem 4.1rem;
+    font-weight:bold;
+    font-size: 1.3rem;
+}
+.body-section p{
+    margin: 0rem 2rem;
+    padding: 0rem 4.1rem;
+    font-weight: 400;
+}
+.body-section section ul{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0.5rem;
+    padding: 0 8rem;
+}
+
+.buymecoffee{
+    margin:10rem auto;
+}
+.buymecoffee h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+}
+.buymecoffee p{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+
+}
+.buymecoffee label{
+    display: block;
+    font-size: 1.1rem;
+    font-style: italic;
+    width: 75%;
+    margin: 1rem auto;
+}
+.buymecoffee textarea{
+    width: 100%;
+    display: block;
+    height: 2rem;
+    background-color:rgba(198, 204, 207, 0.3);  
+    border: none;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
+.buymecoffee button{
+    display: block;
+    border:none;
+    font-size: 1rem;
+    padding:0.5rem;
+    background-color:rgba(144, 213, 247, 0.3);  
+    color:white;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    text-align: center;
+    border-radius: 5%;
+}
+.buymecoffee button:hover{
+    font-weight: bolder;
+    background-color: #012741;
+    color: whitesmoke;
+    text-decoration: underline;
+    border: darkblue 1px solid;
+    border-radius: 5%;
+}
+footer img {
+    display: block;
+    margin: 2rem auto 0rem auto;
+    width: 60%;
+}
