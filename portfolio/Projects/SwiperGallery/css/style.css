@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    background-color:rgb(44, 102, 132, 0.9); 
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+
+.gallery-img{
+    display: none;
+    max-height: 600px;
+}
+
+.active{
+    display: block;
+}
+
+.image-gallery{     
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+
+.btn{
+    background-color:#0074d9;
+    color:white;
+    padding:6px 21px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor:pointer; 
+}
+
+.prev{
+    margin-right: 20px;
+}
+
+.btn:disabled {
+    background-color: #777;
+    cursor: not-allowed;  
+}
+
+
+/* Swiper Content */
+
+
+
+.swiper-slide{
+    text-align: center;
+}
+
+img{
+    height:400px
+
+}

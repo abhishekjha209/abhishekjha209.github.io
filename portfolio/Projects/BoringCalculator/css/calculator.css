@@ -13,8 +13,7 @@ body {
     background-color: black;
     color: white;
 }
-.calc-buttons-row{
-}
+
 .screen{
     text-align: right;
     font-family: 'Courier New', Courier, monospace;
@@ -36,10 +35,10 @@ body {
     margin-bottom: 0.5%;
 }
 .calc-button:hover{
-    color: #ebebeb;
+    background-color: #ebebeb;
 }
 .calc-button:active{
-    color:#bbbcb3;
+    background-color:#bbbcb3;
 }
 
 .double{
@@ -55,3 +54,6 @@ body {
 .calc-button:last-child:hover{
     background-color:#dfb07e;
 }
+.calc-button:last-child:active {
+    background-color: #dd8d37;
+  }
