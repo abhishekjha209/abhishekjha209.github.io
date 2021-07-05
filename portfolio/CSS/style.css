@@ -4,7 +4,8 @@ body{
     background-repeat: repeat;
     color:whitesmoke;
     font-family: 'Noto Sans JP', sans-serif;
-    margin:0rem;
+    margin:0;
+    padding:0;
 }
 .wrapper{
     width: 97%;
@@ -268,5 +269,4 @@ footer ul{
 .projects-collection a{
     text-decoration:underline;
 }
-
 
